@@ -1,0 +1,286 @@
+@font-face {
+	font-family:'century-gothic';
+	src: local(century-gothic), url(/century-gothic.ttf);
+}
+
+ @font-face {
+	font-family:'OpenSans-Regular';
+	src: local(OpenSans-Regular), url(/OpenSans-Regular.ttf);
+}
+
+body {
+	font-family: 'OpenSans', sans-serif;
+}
+
+header {
+	background: #FEFEFE;
+	padding: 20px 0;
+	width: 100%;
+}
+
+h1 img {
+	width:30%;
+	margin-left: 5%;
+}
+
+nav {
+	position: absolute;
+	top: 100px;
+	right:10%;
+}
+
+nav li {
+    display: inline;
+    margin: 0 0 0 10px;
+    color: #4B4B4B;
+    font-family: 'century-gothic';
+    border-left: 10px solid #E47231;
+    padding-left: 5px;
+    line-height: 1em;
+    text-transform: uppercase;
+}
+
+nav li a {
+	color:#4B4B4B;
+}
+
+nav li:hover {
+	font-weight: bold;
+}
+
+.banner {
+	width:100%;
+	height: 300px;
+	opacity: 0.8;
+	background-color: #F2F2F2;
+}
+
+.firstDiv {
+	background-color: #F2F2F2;
+	padding-top: 30px;
+}
+
+.firstDiv p {
+	line-height: 2em;
+	font-size: 14px;
+	color:#4B4B4B;
+	text-align:justify;
+}
+.sobreNos {
+	width:40%;
+	display: inline-block;
+	margin:5%;
+}
+
+.titulo-principal {
+	text-align: left;
+	font-size: 24px;
+	text-transform: uppercase;
+	margin: 0 0 1em;
+	clear: left;
+	font-family: 'OpenSans-Regular';
+	color: #4B4B4B;
+	font-weight: bold;
+	text-decoration: underline 3px #E47231;
+}
+
+.historico {
+	width:35%;
+	display: inline-block;
+	margin:4%;
+	vertical-align: top;
+	background-color: #FEFEFE;
+	padding:3%;
+	border-radius:2px;
+}
+
+.historico h3 {
+	font-size: 18px;
+	font-style:italic;
+	font-weight: bold;
+	color:#4B4B4B;
+	margin-bottom: 1em;
+	text-decoration: underline 2px #E47231;;	
+}
+
+.historico p {
+	margin-bottom: 10px;
+	text-align: justify;
+}
+.mpvsection {
+	display:flex;
+	justify-content:center;
+}
+.mpv {
+	width:25%;
+	display: inline-block;
+	margin:3%;
+}
+
+.mpv h2 {
+	text-align: left;
+	font-size: 20px;
+	text-transform: uppercase;
+	margin: 0 0 1em;
+	padding-bottom: 3px;
+	clear: left;
+	font-family: 'OpenSans-Regular';
+	color: #4B4B4B;
+	font-weight: bold;
+	border-bottom: 2px solid #E47231;
+}
+
+.mpv p {
+	line-height: 2em;
+	font-size: 14px;
+	color:#4B4B4B;
+	text-align:justify;
+}
+
+.produtos {
+	background-color: #F2F2F2;
+	padding: 5%;
+}
+.produtos ul {
+	margin-top: 40px;
+	margin-bottom: 40px;
+	margin-left:3%;
+	display:inline;
+	justify-content: center;
+}
+
+.produtos li {
+	display: inline-block;
+	text-align: center;
+	width: 20%;
+	vertical-align: top;
+	margin-left: 3%;
+	margin-top: 10px;
+}
+
+.liProdutos:hover > img {
+	border: 2px solid #E47231;
+	border-radius: 5px;
+}
+
+.liProdutos:hover > .produto-descricao {
+	font-size: 16px;
+}
+
+.produtos li img {
+	width:100%;
+	max-width: 250px;
+	min-width: 135px;
+}
+
+.produto-descricao {
+	line-height: 2em;
+	font-size: 14px;
+	font-weight: bold;
+	color:#4B4B4B;
+	text-align:center;
+}
+
+.contato {
+	padding:5%;
+}
+
+
+form {
+	margin-top: 40px;
+	margin-bottom:40px;
+	margin-left:35%;
+}
+
+form label, form legend {
+	display:block;
+	font-size: 20px;
+	margin: 0 0 10px;
+	font-family: 'OpenSans-Regular';
+	color:#4B4B4B;
+	font-size:16px;	
+}
+
+.input-padrao {
+	display: block;
+	margin: 0 0 20px;
+	padding: 10px 25px;
+	width: 40%;
+	background-color: #F2F2F2;
+}
+
+.botao {
+	width: 15%;
+	height: 2em;
+	margin-left: 15%;
+	font-family: 'OpenSans-Regular';
+	font-weight: bold;
+	background-color: #E47231;
+	border:none;
+	color: #010101;
+}
+
+.botao:hover{
+	height:3em;
+	font-size: 16px;
+	border: 1px solid #010101;
+}
+
+.ondeEstamos {
+	background-color: #F2F2F2;
+	width:100%;
+	padding: 5%;
+}
+
+.infos {
+	width:30%;
+	display:inline-block;
+	vertical-align: top;
+	line-height: 2em;
+	font-size: 14px;
+	color:#4B4B4B;
+	text-align:justify;
+}
+
+.infos > h3{
+	font-weight:bold;
+}
+.infos > a{
+	text-decoration: none;
+	color:#E47231;
+}
+
+.infos > a:hover{
+	font-weight:bold;
+}
+.mapa-conteudo {
+	width: 60%;
+	display:inline-block;
+	margin-right: 5%;
+}
+
+footer {
+	text-align: center;
+	background-color: #FEFEFE;
+	padding: 40px 0;
+}
+
+footer > img {
+	width: 150px;
+}
+
+.copyright {
+	color: #4B4B4B;
+	font-size: 13px;
+	margin: 20px 0 0;
+}
+
+footer > a {
+	color:#4B4B4B;
+	font-size: 13px;
+	margin-left: 80%;
+	text-decoration: underline;
+}
+
+@media screen and (max-width: 699px) {
+}
