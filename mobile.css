@@ -1,0 +1,119 @@
+@media screen and (max-width: 1009px) {
+
+   header {
+       display: block;
+       padding: 20px 0 0 0;
+   }
+
+   h1 {
+        width: 100%;
+    }
+
+    h1 img {
+        margin-left:15%;
+        width:60%;
+    }
+
+
+   .navDesktop{
+       width:100%;
+   }
+
+   .ulNavDesktop {
+       width:100%;
+       margin: 3% 3% 5% 3%;
+   }
+
+   .liNavDesktop {
+       font-size: 12px;
+       margin-left:4px;
+       border-left: 8px solid #E47231;
+       padding-left: 2px;
+   }
+    .banner {
+        height:min-content;
+    }
+
+    .firstDiv {
+        padding-bottom:50px;
+    }
+
+    .sobreNos {
+        display:block;
+        margin:9%;
+        width:80%;
+    }
+    .titulo-principal {
+        font-size: 18px;
+        text-align:center;
+    }
+    .historico {
+        margin:0 12%;
+        width:70%;
+    }
+    .historico h3 {
+        font-size:16px;
+        text-align: center;
+    }
+    .mpvsection {
+        display:block;
+    }
+
+    .mpv h2 {
+        font-size: 18px;
+    }
+    .mpv {
+        width:80%;
+        display:block;
+        margin:9%;
+    }
+    .produtos ul{
+        display:block;
+        padding:5%;
+        margin:0;
+    }
+
+    .produtos li {
+        display:inline-block;
+        width: 42%;
+        margin:3%;
+    }
+
+    form {
+        margin:10% 8%;
+    }
+
+    .input-padrao {
+        width:80%;
+    }
+
+    .botao {
+        width:30%;
+        margin-left:33%;
+    }
+
+    .ondeEstamos{
+        padding-top: 50px;
+    }
+    .infos{
+        margin:10%;
+        width:78%;
+    }
+
+    .mapa-conteudo {
+        margin:5%;
+        width:88%;
+        height: 300px;
+    }
+
+    .copyright {
+        margin:20px 0;
+    }
+    footer > a {
+        margin-left: 0;
+    }
+
+
+
+
+}
