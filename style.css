@@ -10,6 +10,7 @@
 
 body {
 	font-family: 'OpenSans-Regular', sans-serif;
+	width:100%;
 }
 
 header {
@@ -245,7 +246,6 @@ form label, form legend {
 
 .ondeEstamos {
 	background-color: #F2F2F2;
-	width:100%;
 	padding: 5%;
 }
 
