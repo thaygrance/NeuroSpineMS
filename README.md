@@ -1,7 +1,7 @@
 # NeuroSpineMS
 Site Institucional One Page - Comércio de produtos médico-hospitalares
 
-Essa foi a primeira página que fiz tudo, sem partir do design ou orientação de ninguém, apenas pesquisando páginas do ramo para ter uma ideia das melhores seções para compô-la. 
+Essa foi a primeira página em que fiz tudo, sem partir do design ou orientação de ninguém, apenas pesquisando páginas do ramo para ter uma ideia das melhores seções para compô-la. 
 
 As cores e logo são de uma empresa real de uma amiga (que ficou me devendo algumas infos para concluirmos e disponibilizar online).
 
