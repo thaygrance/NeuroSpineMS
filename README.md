@@ -9,4 +9,4 @@ Quando comecei a estudar programação eu nunca tinha tido contato com nada dess
 
 Você pode acessar em: https://thaygrance.github.io/NeuroSpineMS/.
 
-<img align="center" alt="Gif rolagem do site" src="Gravação de tela de 15-03-2022 08_31_00 (1).gif">
+<img align="center" alt="Gif rolagem do site" width="250" src="Gravação de tela de 15-03-2022 08_31_00 (1).gif">
